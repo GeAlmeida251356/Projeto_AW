@@ -1,0 +1,8 @@
+-- DROP DATABASE IF EXISTS SampaPoint;
+CREATE DATABASE cadastro;
+USE cadastro;
+
+CREATE TABLE IF NOT EXISTS `login` (
+  idusuario INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  `email` varchar(30) NOT NULL
+);
